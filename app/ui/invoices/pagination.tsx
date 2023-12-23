@@ -18,8 +18,6 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
   };
   const allPages = generatePagination(currentPage, totalPages);
 
-  console.log('pagination');
-
   return (
     <>
       <div className='inline-flex'>
